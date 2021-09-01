@@ -1,0 +1,12 @@
+GET https://0tifunicq9.execute-api.eu-west-2.amazonaws.com/dev/posts HTTP/1.1
+
+###
+
+POST https://0tifunicq9.execute-api.eu-west-2.amazonaws.com/dev/post HTTP/1.1
+
+content-type: application/json
+
+{
+	"title": "yubi post",
+	"body": "my first post"
+}
